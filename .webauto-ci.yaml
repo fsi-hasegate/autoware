@@ -82,8 +82,8 @@ simulations:
       deployment:
         type: container
         artifact: main
-    runtime:
-      type: standard1/amd64/large
+      runtime:
+        type: standard1/amd64/large
   - name: lexus_planning_sim
     type: planning_sim_v2
     simulator:
